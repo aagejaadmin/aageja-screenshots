@@ -1,0 +1,503 @@
+[
+ {
+  "file": "csx_admin-console_system-settings-landing.png",
+  "screen": "system-settings-landing",
+  "doc_page": "P2/UAT",
+  "source": "https://unicorn1.csod.com/lx/administration/accounts/users",
+  "captured": "2026-08-11",
+  "title": "Unified admin console (System Settings) landing",
+  "alt": "The unified CSX System Settings admin console landing on People & organization > Users, showing the People/Organization/Cornerstone core functions left navigation.",
+  "elements": [
+   "tabs",
+   "left-nav",
+   "user-search"
+  ]
+ },
+ {
+  "file": "csx_learner_galaxy-home.png",
+  "screen": "galaxy-home",
+  "doc_page": "P2/UAT",
+  "source": "https://unicorn1.csod.com/lx/web/?tab_page_id=-15501&tab_id=-2",
+  "captured": "2026-08-11",
+  "title": "Galaxy learner home page",
+  "alt": "The new Galaxy learner home page ('Hi Sundar!') with Complete your profile, Announcements, Recent updates, Assigned learning and In progress widgets.",
+  "elements": [
+   "top-nav",
+   "profile-widget",
+   "announcements",
+   "assigned-learning"
+  ]
+ },
+ {
+  "file": "csx_learner_deeplink-restricted.png",
+  "screen": "deeplink-restricted",
+  "doc_page": "Gap3",
+  "source": "https://unicorn1.csod.com/common/RestrictedArea.aspx",
+  "captured": "2026-08-11",
+  "title": "Broken deeplink - Restricted Access landing",
+  "alt": "A broken learner deeplink landing on the Restricted Area page: 'You do not have the permissions needed to view this page.'",
+  "elements": [
+   "permission-error"
+  ]
+ },
+ {
+  "file": "csx_learner_deeplink-restricted_el-permission-error.png",
+  "screen": "deeplink-restricted",
+  "doc_page": "Gap3",
+  "source": "https://unicorn1.csod.com/common/RestrictedArea.aspx",
+  "captured": "2026-08-11",
+  "title": "Broken deeplink - Restricted Access landing - el-permission-error",
+  "alt": "Close-up of the Restricted Area permission-error message.",
+  "elements": [
+   "permission-error"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-groups-landing.png",
+  "screen": "manage-groups-landing",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app",
+  "captured": "2026-08-11",
+  "title": "Groups Management (Manage Groups) landing",
+  "alt": "The Manage Groups landing list showing groups with Title, ID, Last Processed, Status and Actions, plus the Create Group button.",
+  "elements": [
+   "create-group",
+   "group-list",
+   "published-draft-toggle"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-groups-landing_el-create-group.png",
+  "screen": "manage-groups-landing",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app",
+  "captured": "2026-08-11",
+  "title": "Groups Management (Manage Groups) landing - el-create-group",
+  "alt": "Close-up of the Create Group button.",
+  "elements": [
+   "create-group"
+  ]
+ },
+ {
+  "file": "csx_groups_create-group-form.png",
+  "screen": "create-group-form",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Static group creation form",
+  "alt": "The Create Group form: group name, Description editor, required Group ID, Parent, Owner, Default Language, Membership section and the Save as Draft / Publish action bar.",
+  "elements": [
+   "group-id",
+   "parent",
+   "owner",
+   "membership",
+   "publish-actions"
+  ]
+ },
+ {
+  "file": "csx_groups_create-group-form_el-publish-actions.png",
+  "screen": "create-group-form",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Static group creation form - el-publish-actions",
+  "alt": "Close-up of the Save as Draft and Publish controls.",
+  "elements": [
+   "publish-actions"
+  ]
+ },
+ {
+  "file": "csx_groups_membership-options.png",
+  "screen": "membership-options",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Group membership - empty state with assignment methods",
+  "alt": "The Membership section of a group showing the empty 'No members added' state with Upload Members (bulk) and Manage Members (manual) entry points.",
+  "elements": [
+   "empty-membership",
+   "upload-members",
+   "manage-members"
+  ]
+ },
+ {
+  "file": "csx_groups_membership-options_el-add-methods.png",
+  "screen": "membership-options",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Group membership - empty state with assignment methods - el-add-methods",
+  "alt": "Close-up of the Upload Members and Manage Members buttons.",
+  "elements": [
+   "add-methods"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-members-dynamic.png",
+  "screen": "manage-members-dynamic",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Manage Members - Dynamic Members (criteria) tab",
+  "alt": "The Manage Members panel on the Dynamic Members tab showing 'No criteria added' and an Add Section button; tabs for Dynamic, Manually Added and Excluded Members.",
+  "elements": [
+   "member-tabs",
+   "dynamic-criteria",
+   "add-section"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-members-dynamic_el-member-tabs.png",
+  "screen": "manage-members-dynamic",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Manage Members - Dynamic Members (criteria) tab - el-member-tabs",
+  "alt": "Close-up of the Dynamic / Manually Added / Excluded Members tabs.",
+  "elements": [
+   "member-tabs"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-members-manual.png",
+  "screen": "manage-members-manual",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Manage Members - Manually Added Members (user picker)",
+  "alt": "The manual assignment interface: Quick/Advanced search, Select All, and a checkbox list of users to add to the group manually.",
+  "elements": [
+   "member-tabs",
+   "user-search",
+   "select-all",
+   "user-list"
+  ]
+ },
+ {
+  "file": "csx_groups_manage-members-manual_el-user-search.png",
+  "screen": "manage-members-manual",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Manage Members - Manually Added Members (user picker) - el-user-search",
+  "alt": "Close-up of the manual user search and Select All controls.",
+  "elements": [
+   "user-search"
+  ]
+ },
+ {
+  "file": "csx_groups_upload-publish-prompt.png",
+  "screen": "upload-publish-prompt",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/ui/acl-admin-ui/app/groups/create",
+  "captured": "2026-08-11",
+  "title": "Bulk upload requires publish prompt",
+  "alt": "The confirmation modal shown when choosing Upload Members on an unsaved group: 'New group will be published' before redirecting to the upload tool.",
+  "elements": [
+   "publish-prompt"
+  ]
+ },
+ {
+  "file": "csx_security-roles_security-roles-landing.png",
+  "screen": "security-roles-landing",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleAdmin.aspx",
+  "captured": "2026-08-11",
+  "title": "Security Role Administration landing",
+  "alt": "The Security Role Administration landing with role search, Create New Role and Manage Categories actions, and the roles list with Category and Options.",
+  "elements": [
+   "role-search",
+   "create-new-role",
+   "manage-categories",
+   "role-list"
+  ]
+ },
+ {
+  "file": "csx_security-roles_security-roles-landing_el-role-actions.png",
+  "screen": "security-roles-landing",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleAdmin.aspx",
+  "captured": "2026-08-11",
+  "title": "Security Role Administration landing - el-role-actions",
+  "alt": "Close-up of the Create New Role and Manage Categories actions.",
+  "elements": [
+   "role-actions"
+  ]
+ },
+ {
+  "file": "csx_security-roles_manage-categories.png",
+  "screen": "manage-categories",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/Security/SecurityManageCategories.aspx",
+  "captured": "2026-08-11",
+  "title": "Security Role Categories list",
+  "alt": "The Manage Categories page listing security role categories (System Administration, Learning, Performance, etc.) with Create New Category and edit/remove options.",
+  "elements": [
+   "create-new-category",
+   "category-list"
+  ]
+ },
+ {
+  "file": "csx_security-roles_create-category.png",
+  "screen": "create-category",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/Security/SecurityManageCategories.aspx",
+  "captured": "2026-08-11",
+  "title": "Security Role Category creation (inline)",
+  "alt": "The Manage Categories page with a new inline category row added (empty name field) and Save/Cancel options - the category creation state.",
+  "elements": [
+   "category-name-input",
+   "save-cancel"
+  ]
+ },
+ {
+  "file": "csx_security-roles_create-category_el-name-input.png",
+  "screen": "create-category",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/Security/SecurityManageCategories.aspx",
+  "captured": "2026-08-11",
+  "title": "Security Role Category creation (inline) - el-name-input",
+  "alt": "Close-up of the new category name input with save/cancel.",
+  "elements": [
+   "name-input"
+  ]
+ },
+ {
+  "file": "csx_security-roles_create-role-general.png",
+  "screen": "create-role-general",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleEditGeneral.aspx?roleid=0&CurrMode=1",
+  "captured": "2026-08-11",
+  "title": "Create Role - General tab",
+  "alt": "The Create Role wizard General tab (Name, ID, Category, Parent, Description, Active) with the General / Permissions / Constraints step tabs.",
+  "elements": [
+   "role-tabs",
+   "name",
+   "id",
+   "category",
+   "parent"
+  ]
+ },
+ {
+  "file": "csx_security-roles_create-role-general_el-role-tabs.png",
+  "screen": "create-role-general",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleEditGeneral.aspx?roleid=0&CurrMode=1",
+  "captured": "2026-08-11",
+  "title": "Create Role - General tab - el-role-tabs",
+  "alt": "Close-up of the General / Permissions / Constraints step tabs.",
+  "elements": [
+   "role-tabs"
+  ]
+ },
+ {
+  "file": "csx_security-roles_permission-assignment.png",
+  "screen": "permission-assignment",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleEditPermissions.aspx",
+  "captured": "2026-08-11",
+  "title": "Security role permission assignment view",
+  "alt": "The Permissions assignment view for a role, showing grouped permissions (Core, Core Administration, Edge, Universal Profile) with checkboxes and Check All / Clear All.",
+  "elements": [
+   "permission-groups",
+   "permission-checkboxes",
+   "check-all"
+  ]
+ },
+ {
+  "file": "csx_security-roles_permission-assignment_el-permission-groups.png",
+  "screen": "permission-assignment",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/security/SecurityRoleEditPermissions.aspx",
+  "captured": "2026-08-11",
+  "title": "Security role permission assignment view - el-permission-groups",
+  "alt": "Close-up of a permission group with checkboxes and Check All/Clear All.",
+  "elements": [
+   "permission-groups"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-admin-list.png",
+  "screen": "email-admin-list",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Email Management (Email Administration) list",
+  "alt": "The Email Administration list of action triggers with search filters (Action Type, Category), Include Inactive Emails, and the Action/Action Type/Description/Options columns.",
+  "elements": [
+   "action-filters",
+   "trigger-list",
+   "options"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-admin-list_el-action-filters.png",
+  "screen": "email-admin-list",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Email Management (Email Administration) list - el-action-filters",
+  "alt": "Close-up of the Action Type and Category search filters.",
+  "elements": [
+   "action-filters"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_action-expanded-email.png",
+  "screen": "action-expanded-email",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Trigger expanded to its email (inactive)",
+  "alt": "The Employee Onboarding Started trigger expanded to show its configured email with an UNCHECKED Active checkbox - a notification configured but inactive, so it will not fire.",
+  "elements": [
+   "email-under-trigger",
+   "active-toggle",
+   "options"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_action-expanded-email_el-active-toggle.png",
+  "screen": "action-expanded-email",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Trigger expanded to its email (inactive) - el-active-toggle",
+  "alt": "Close-up of the unchecked Active checkbox indicating the email will not fire.",
+  "elements": [
+   "active-toggle"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_triggers-no-email.png",
+  "screen": "triggers-no-email",
+  "doc_page": "Gap3",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Triggers with no email configured",
+  "alt": "The Email Administration list showing the contrast between triggers with a configured email (expandable) and triggers with none (Instructor Anonymization, Integration Task Assigned/Completed) - nothing fires.",
+  "elements": [
+   "configured-triggers",
+   "unconfigured-triggers"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_triggers-no-email_el-unconfigured-triggers.png",
+  "screen": "triggers-no-email",
+  "doc_page": "Gap3",
+  "source": "https://unicorn1.csod.com/email/admin.aspx",
+  "captured": "2026-08-11",
+  "title": "Triggers with no email configured - el-unconfigured-triggers",
+  "alt": "Close-up of trigger rows that have no email configured.",
+  "elements": [
+   "unconfigured-triggers"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-editor.png",
+  "screen": "email-editor",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/email/AdminEmailEdit.aspx",
+  "captured": "2026-08-11",
+  "title": "Email template editor (trigger binding)",
+  "alt": "The Edit Email template editor top section: the Action (trigger) the email is bound to, the Active toggle, From/Reply-To addresses, Type and recipients.",
+  "elements": [
+   "action-trigger",
+   "active-toggle",
+   "addresses",
+   "type",
+   "recipients"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-editor_el-action-trigger.png",
+  "screen": "email-editor",
+  "doc_page": "P2/Gap3",
+  "source": "https://unicorn1.csod.com/email/AdminEmailEdit.aspx",
+  "captured": "2026-08-11",
+  "title": "Email template editor (trigger binding) - el-action-trigger",
+  "alt": "Close-up of the Action (trigger) binding and Active toggle.",
+  "elements": [
+   "action-trigger"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-editor-body.png",
+  "screen": "email-editor-body",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/email/AdminEmailEdit.aspx",
+  "captured": "2026-08-11",
+  "title": "Email template editor - subject and body",
+  "alt": "The Edit Email body section: Subject line, merge Tags, HTML/Plain Text toggle and the WYSIWYG message editor with live template preview.",
+  "elements": [
+   "subject",
+   "tags",
+   "body-editor",
+   "preview"
+  ]
+ },
+ {
+  "file": "csx_email-mgmt_email-editor-body_el-subject-tags.png",
+  "screen": "email-editor-body",
+  "doc_page": "P2",
+  "source": "https://unicorn1.csod.com/email/AdminEmailEdit.aspx",
+  "captured": "2026-08-11",
+  "title": "Email template editor - subject and body - el-subject-tags",
+  "alt": "Close-up of the Subject line and merge Tags link.",
+  "elements": [
+   "subject-tags"
+  ]
+ },
+ {
+  "file": "csx_content-mgr_availability-panel.png",
+  "screen": "availability-panel",
+  "doc_page": "Gap5",
+  "source": "https://unicorn1.csod.com/LMS/Admin/NewUI/ManageTrainingEditCombined.aspx",
+  "captured": "2026-08-11",
+  "title": "Content availability / restriction panel",
+  "alt": "The Availability tab of a training item: Select Criteria and Create New Group, plus per-criterion options (Include Subordinates, Pre-Approved, Register Upon Approval, Availability Type, Training Request Form).",
+  "elements": [
+   "select-criteria",
+   "create-new-group",
+   "criteria-row",
+   "availability-type"
+  ]
+ },
+ {
+  "file": "csx_content-mgr_availability-panel_el-select-criteria.png",
+  "screen": "availability-panel",
+  "doc_page": "Gap5",
+  "source": "https://unicorn1.csod.com/LMS/Admin/NewUI/ManageTrainingEditCombined.aspx",
+  "captured": "2026-08-11",
+  "title": "Content availability / restriction panel - el-select-criteria",
+  "alt": "Close-up of the Select Criteria and Create New Group controls.",
+  "elements": [
+   "select-criteria"
+  ]
+ },
+ {
+  "file": "csx_content-mgr_availability-criteria-types.png",
+  "screen": "availability-criteria-types",
+  "doc_page": "Gap5",
+  "source": "https://unicorn1.csod.com/LMS/Admin/NewUI/ManageTrainingEditCombined.aspx",
+  "captured": "2026-08-11",
+  "title": "Availability - restriction criteria types",
+  "alt": "The Select Criteria dropdown expanded on the Availability tab, showing restriction types: All Users, Division, Position, Grade, Cost Center and more.",
+  "elements": [
+   "criteria-dropdown",
+   "ou-types"
+  ]
+ },
+ {
+  "file": "csx_content-mgr_availability-criteria-types_el-criteria-dropdown.png",
+  "screen": "availability-criteria-types",
+  "doc_page": "Gap5",
+  "source": "https://unicorn1.csod.com/LMS/Admin/NewUI/ManageTrainingEditCombined.aspx",
+  "captured": "2026-08-11",
+  "title": "Availability - restriction criteria types - el-criteria-dropdown",
+  "alt": "Close-up of the criteria-type dropdown options.",
+  "elements": [
+   "criteria-dropdown"
+  ]
+ }
+]
