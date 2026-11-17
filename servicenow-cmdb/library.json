@@ -3,7 +3,7 @@
  "client": "Four Dragons",
  "captured": "2026-11-17",
  "capture_method": "Live capture from a ServiceNow developer instance (Brazil release) with demo data; My Work and Data Manager from the Screenshot Library Builder run of 2026-11-17",
- "count": 15,
+ "count": 20,
  "images": [
   {
    "folder": "home",
@@ -431,6 +431,114 @@
    "source_document": "Screenshot Library Builder capture, ServiceNow developer instance (Brazil release)",
    "source_location": "/now/cmdb/management/sub/data-manager/params/selected-tab-index/0/ts/1794896953150",
    "captured": "2026-11-17"
+  },
+  {
+   "folder": "ci-class-manager",
+   "filename": "servicenow-cmdb_ci-class-manager_printer-health-menu.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/servicenow-cmdb/ci-class-manager/servicenow-cmdb_ci-class-manager_printer-health-menu.png",
+   "description": "CI Class Manager open on the Printer class (breadcrumb Configuration Item > Hardware > Printer), Basic Info page showing Display Name Printer and Table Name cmdb_ci_printer. Left menu: Class Info (Basic Info, Attributes, Identification Rule, Reconciliation Rules, Suggested Relationships), All Relationship Rules, Health expanded (Completeness, Compliance, Correctness, Health Inclusion Rules), CI List.",
+   "alt": "Printer class in CI Class Manager with the Health menu expanded",
+   "elements": [
+    "breadcrumb: Configuration Item > Hardware > Printer",
+    "menu: Class Info",
+    "menu: Health",
+    "link: Health Inclusion Rules",
+    "link: CI List",
+    "button: Hierarchy"
+   ],
+   "module": "CI Class Manager",
+   "screen": "Printer class page with Health menu",
+   "width": 1568,
+   "height": 756,
+   "source_document": "Live capture, ServiceNow developer instance (Brazil release), CMDB Workspace",
+   "source_location": "$ciModel.do?id=basic_info&class=cmdb_ci_printer",
+   "captured": "2026-11-17"
+  },
+  {
+   "folder": "ci-class-manager",
+   "filename": "servicenow-cmdb_ci-class-manager_printer-health-inclusion-rules-blank.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/servicenow-cmdb/ci-class-manager/servicenow-cmdb_ci-class-manager_printer-health-inclusion-rules-blank.png",
+   "description": "Health Inclusion Rules page for the Printer class (Health > Health Inclusion Rules) before any values are entered. Applies To: Printer. Active Record Condition builder with an empty -- choose field -- selector and AND / OR buttons. Applies To Metric: Available lists Duplicate, Orphan, Recommended, Required, Staleness; Selected is empty. Save button at the lower right.",
+   "alt": "Empty Health Inclusion Rules form for the Printer class",
+   "elements": [
+    "label: Applies To",
+    "condition builder: Active Record Condition",
+    "list: Applies To Metric Available",
+    "list: Applies To Metric Selected",
+    "button: add (>)",
+    "button: Save"
+   ],
+   "module": "CI Class Manager",
+   "screen": "Health Inclusion Rules for Printer (empty)",
+   "width": 1568,
+   "height": 756,
+   "source_document": "Live capture, ServiceNow developer instance (Brazil release), CMDB Workspace",
+   "source_location": "$ciModel.do?id=health_inclusion_rules&class=cmdb_ci_printer",
+   "captured": "2026-11-17"
+  },
+  {
+   "folder": "ci-class-manager",
+   "filename": "servicenow-cmdb_ci-class-manager_printer-health-inclusion-rules-filled.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/servicenow-cmdb/ci-class-manager/servicenow-cmdb_ci-class-manager_printer-health-inclusion-rules-filled.png",
+   "description": "Health Inclusion Rules page for the Printer class with values entered but not yet saved: Active Record Condition Install Status is Installed; Applies To Metric has Duplicate in Selected (Orphan, Recommended, Required, Staleness remain in Available). Save button at the lower right.",
+   "alt": "Printer health inclusion rule with Install Status is Installed and the Duplicate metric selected",
+   "elements": [
+    "condition: Install Status is Installed",
+    "list: Applies To Metric Selected (Duplicate)",
+    "button: Save"
+   ],
+   "module": "CI Class Manager",
+   "screen": "Health Inclusion Rules for Printer (filled in, not saved)",
+   "width": 1568,
+   "height": 756,
+   "source_document": "Live capture, ServiceNow developer instance (Brazil release), CMDB Workspace",
+   "source_location": "$ciModel.do?id=health_inclusion_rules&class=cmdb_ci_printer",
+   "captured": "2026-11-17"
+  },
+  {
+   "folder": "health-preference",
+   "filename": "servicenow-cmdb_health-preference_system-properties.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/servicenow-cmdb/health-preference/servicenow-cmdb_health-preference_system-properties.png",
+   "description": "CMDB Health Preference page with System Properties selected in the right-hand menu (System Properties, Scheduled Jobs, Health Metrics). Two properties: Max time in minutes for which individual metric processor will run in each scheduled cycle, set to 120; Attribute in the [cmdb_ci] table that references the User or User Group table, which CMDB Health Dashboard charts use to determine CIs' ownership, set to managed_by_group. Save buttons at the top right and under the fields.",
+   "alt": "CMDB Health Preference System Properties with max run time 120 and ownership attribute managed_by_group",
+   "elements": [
+    "menu: System Properties",
+    "menu: Scheduled Jobs",
+    "menu: Health Metrics",
+    "field: Max time in minutes (120)",
+    "field: Ownership attribute (managed_by_group)",
+    "button: Save"
+   ],
+   "module": "CMDB Health Preference",
+   "screen": "System Properties",
+   "width": 1568,
+   "height": 756,
+   "source_document": "Live capture, ServiceNow developer instance (Brazil release), CMDB Workspace",
+   "source_location": "$cmdb_health_properties.do",
+   "captured": "2026-11-17"
+  },
+  {
+   "folder": "management",
+   "filename": "servicenow-cmdb_management_cmdb-health-duplicate-cis.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/servicenow-cmdb/management/servicenow-cmdb_management_cmdb-health-duplicate-cis.png",
+   "description": "CMDB Health Dashboard with the Correctness tile selected and the Duplicate CIs tab open (tabs: Duplicate CIs, Orphan CIs, Stale CIs). Heading Configuration Item CIs that are duplicates (Top 10). Class tiles: Computer 295 and Printer 26 CIs that are duplicates, each with pie charts Non-compliant CIs by discovery source (Unknown) and Non-compliant CIs by owner (empty); Linux Server tile begins below.",
+   "alt": "Duplicate CIs tab of the Correctness tile showing Computer 295 and Printer 26",
+   "elements": [
+    "tab: Duplicate CIs",
+    "tab: Orphan CIs",
+    "tab: Stale CIs",
+    "tile: Computer 295",
+    "tile: Printer 26",
+    "chart: Non-compliant CIs by discovery source",
+    "chart: Non-compliant CIs by owner"
+   ],
+   "module": "CMDB Health",
+   "screen": "Correctness tile, Duplicate CIs tab",
+   "width": 1568,
+   "height": 756,
+   "source_document": "Live capture, ServiceNow developer instance (Brazil release), CMDB Workspace",
+   "source_location": "/now/cmdb/management/sub/health-dashboard",
+   "captured": "2026-11-17"
   }
  ],
  "not_captured": [
@@ -439,8 +547,8 @@
    "reason": "Not used by the current course outline."
   },
   {
-   "target": "Saved health inclusion rule",
-   "reason": "The rule was filled in for the screenshot but not saved, so the developer instance keeps its starting state."
+   "target": "Saved health inclusion rule and the dashboard after it",
+   "reason": "The rules were filled in for the screenshots but not saved, so the developer instance keeps its starting state."
   }
  ]
 }
