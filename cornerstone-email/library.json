@@ -1,0 +1,101 @@
+{
+  "product": "Cornerstone Learn",
+  "client": "Cornerstone",
+  "captured": "2026-11-25",
+  "image_size": "original",
+  "count": 6,
+  "images": [
+    {
+      "folder": "troubleshooting-guide-emails",
+      "filename": "cornerstone-learn_troubleshooting-guide-emails_part-1-troubleshooting-the-user-record.png",
+      "url": "troubleshooting-guide-emails/cornerstone-learn_troubleshooting-guide-emails_part-1-troubleshooting-the-user-record.png",
+      "description": "Troubleshooting Guide - Emails, Part 1: Troubleshooting the User Record shows an Edit User Record form with fields for Prefix, First Name, Middle Name, Last Name, a Change Photo option, User Name, User ID, Local System ID, Original Hire Date, Last Hire Date, Allow Reconciliation and Absent.",
+      "alt": "Cornerstone Learn troubleshooting guide showing the Edit User Record form",
+      "elements": [],
+      "module": "Troubleshooting Guide - Emails",
+      "screen": "Part 1: Troubleshooting the User Record",
+      "page_title": "Troubleshooting Guide - Emails",
+      "source_path": "Troubleshooting Guide - Emails, page 2",
+      "captured": "2026-11-25"
+    },
+    {
+      "folder": "troubleshooting-guide-emails",
+      "filename": "cornerstone-learn_troubleshooting-guide-emails_part-2-troubleshooting-the-email.png",
+      "url": "troubleshooting-guide-emails/cornerstone-learn_troubleshooting-guide-emails_part-2-troubleshooting-the-email.png",
+      "description": "Troubleshooting Guide - Emails, Part 2: Troubleshooting the Email Template shows an Edit Email form with fields for Email Title, From Address, Reply-To Address, Type and recipient selection, plus an Action field, an Active setting and a default language option.",
+      "alt": "Cornerstone Learn troubleshooting guide showing the Edit Email template form",
+      "elements": [],
+      "module": "Troubleshooting Guide - Emails",
+      "screen": "Part 2: Troubleshooting the Email Template",
+      "page_title": "Troubleshooting Guide - Emails",
+      "source_path": "Troubleshooting Guide - Emails, page 4",
+      "captured": "2026-11-25"
+    },
+    {
+      "folder": "email-create",
+      "filename": "cornerstone-learn_email-create_email-create.png",
+      "url": "email-create/cornerstone-learn_email-create_email-create.png",
+      "description": "Email - Create shows the Create New Email form with fields for Email Title, From Address, Reply-To Address, Type and recipient selection, a Change Default Language option, a default language setting, and an Action field.",
+      "alt": "Cornerstone Learn Email Create form for a new email template",
+      "elements": [],
+      "module": "Email - Create",
+      "screen": "Email - Create",
+      "page_title": "Email - Create",
+      "source_path": "Email - Create, page 3",
+      "captured": "2026-11-25"
+    },
+    {
+      "folder": "email-create",
+      "filename": "cornerstone-learn_email-create_notes-regarding-email-modification.png",
+      "url": "email-create/cornerstone-learn_email-create_notes-regarding-email-modification.png",
+      "description": "Email - Create, Notes Regarding Email Modification shows an Action selector with options Training is Due and Training is Due in One Week, fields for Email Title, From Address, Reply-To Address and Type, and a Reminder setting with minutes, hours and days options relative to an event.",
+      "alt": "Cornerstone Learn notes on email modification with reminder timing options",
+      "elements": [],
+      "module": "Email - Create",
+      "screen": "Notes Regarding Email Modification",
+      "page_title": "Email - Create",
+      "source_path": "Email - Create, page 4",
+      "captured": "2026-11-25"
+    },
+    {
+      "folder": "email-create",
+      "filename": "cornerstone-learn_email-create_notes-regarding-email-modification-2.png",
+      "url": "email-create/cornerstone-learn_email-create_notes-regarding-email-modification-2.png",
+      "description": "Email - Create, Notes Regarding Email Modification shows an email form with an Email Title field set to Test, From Address and Reply-To Address fields, a Type field set to Confirmation, an Active setting, and a default language option set to English (US).",
+      "alt": "Cornerstone Learn email create form with Test title and Confirmation type",
+      "elements": [],
+      "module": "Email - Create",
+      "screen": "Notes Regarding Email Modification",
+      "page_title": "Email - Create",
+      "source_path": "Email - Create, page 4",
+      "captured": "2026-11-25"
+    },
+    {
+      "folder": "email-administration",
+      "filename": "cornerstone-learn_email-administration_email-administration.png",
+      "url": "email-administration/cornerstone-learn_email-administration_email-administration.png",
+      "description": "Email Administration lists pre-defined email action triggers and includes Email Tips, a search area with a text field, a text field selector, an Email Action Type filter and an Email Category filter, an Expand/Collapse All control, an Include Inactive Emails option, and a table with Action, Action Type, Description and Options columns.",
+      "alt": "Cornerstone Learn Email Administration page listing email action triggers",
+      "elements": [],
+      "module": "Email Administration",
+      "screen": "Email Administration",
+      "page_title": "Email Administration",
+      "source_path": "Email Administration, page 3",
+      "captured": "2026-11-25"
+    }
+  ],
+  "not_captured": [
+    {
+      "target": "Email Troubleshooting Guide",
+      "reason": "No screenshots in this file."
+    },
+    {
+      "target": "Email Export Log",
+      "reason": "No screenshots in this file."
+    },
+    {
+      "target": "Email Triggers",
+      "reason": "No screenshots in this file."
+    }
+  ]
+}
