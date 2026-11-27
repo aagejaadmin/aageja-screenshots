@@ -1,0 +1,35 @@
+{
+ "product": "Airtable",
+ "client": "Imua Onipaa",
+ "captured": "2026-11-27",
+ "image_size": "1568 wide",
+ "count": 2,
+ "images": [
+  {
+   "folder": "builder-hub",
+   "filename": "airtable_builder-hub_personal-access-tokens.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-airtable/builder-hub/airtable_builder-hub_personal-access-tokens.png",
+   "description": "Airtable Builder Hub, Personal access tokens page before any token exists: \"You have no personal access tokens\" and the Create token button.",
+   "alt": "Airtable Personal access tokens page with the Create token button",
+   "module": "Builder Hub",
+   "screen": "Personal access tokens",
+   "source_url": "https://airtable.com/create/tokens",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "builder-hub",
+   "filename": "airtable_builder-hub_create-token-form.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-airtable/builder-hub/airtable_builder-hub_create-token-form.png",
+   "description": "Airtable Create personal access token form: Name M12 Lab — read only, Access M12 Lab (My First Workspace), Scopes data.records:read (\"See the data in records\"), and the Cancel and Create token buttons.",
+   "alt": "Airtable token form limited to one base and read-only scope",
+   "module": "Builder Hub",
+   "screen": "Create token form",
+   "source_url": "https://airtable.com/create/tokens/new",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  }
+ ],
+ "not_captured": [],
+ "capture_method": "Captured in the account owner's own signed-in Chrome. Name, email and initials covered."
+}
