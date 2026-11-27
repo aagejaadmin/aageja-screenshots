@@ -3,7 +3,7 @@
  "client": "Imua Onipaa",
  "captured": "2026-11-26 to 2026-11-27",
  "image_size": "1568 wide (1568x755 for Nov 26 captures; 1568x711 for most Nov 27 captures)",
- "count": 46,
+ "count": 52,
  "images": [
   {
    "folder": "scenarios",
@@ -526,6 +526,78 @@
    "source_url": "https://us2.make.com/3530506/connections",
    "captured": "2026-11-27",
    "image_size": "1324x117"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_canvas.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_canvas.png",
+   "description": "Audit packet scenario \"Hale Mōhala Inn — Duty roster lookup\" (made-up business, fake keys): Tools Basic trigger, Housekeeping roster (GET /v0/appFAKE0000000000/Housekeeping), Front desk roster (GET /v0/appFAKE0000000000/FrontDesk, lock and note icons). Inactive.",
+   "alt": "Make audit packet scenario with a trigger and two HTTP steps",
+   "module": "Audit Packet",
+   "screen": "Canvas",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_canvas-note.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_canvas-note.png",
+   "description": "Audit packet scenario with the note on the Front desk roster step open: \"Token scopes: data.records:read, data.records:write. Access: all bases.\" (author name covered).",
+   "alt": "Make step note saying the token can read and write all bases",
+   "module": "Audit Packet",
+   "screen": "Canvas note",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_step2-header-token.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_step2-header-token.png",
+   "description": "Audit packet Step 2 (Housekeeping roster) settings: Authentication type No authentication; URL https://api.airtable.com/v0/appFAKE0000000000/Housekeeping; Method GET; Headers: Authorization = Bearer patFAKE.audit-example-only (planted problem: token typed into a header; fake value).",
+   "alt": "Make HTTP step with a fake token typed into the Authorization header",
+   "module": "Audit Packet",
+   "screen": "Step2 header token",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_step3-api-key-connection.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_step3-api-key-connection.png",
+   "description": "Audit packet Step 3 (Front desk roster) settings: Authentication type API key; Connection Airtable — all bases — read and write (locked); URL https://api.airtable.com/v0/appFAKE0000000000/FrontDesk; Method GET; Headers and Query parameters empty.",
+   "alt": "Make HTTP step using an all-bases read-and-write API key connection",
+   "module": "Audit Packet",
+   "screen": "Step3 api key connection",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_connection-settings-1.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_connection-settings-1.png",
+   "description": "Audit packet connection, top: Connection name Airtable — all bases — read and write; API Key hidden (fake); In the header; Authorization; Restrict requests to service URLs Yes; Allowed service origins https://api.airtable.com.",
+   "alt": "Make API key connection dialog for the audit packet, top half",
+   "module": "Audit Packet",
+   "screen": "Connection settings 1",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "audit-packet",
+   "filename": "make_audit-packet_connection-settings-2.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_connection-settings-2.png",
+   "description": "Audit packet connection, bottom: Restrict requests to service URLs Yes; Allowed service origins https://api.airtable.com; Team access Locked; Close and Save.",
+   "alt": "Make API key connection dialog for the audit packet, bottom half with Team access Locked",
+   "module": "Audit Packet",
+   "screen": "Connection settings 2",
+   "source_url": "https://us2.make.com/3530506/scenarios/7217918/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
   }
  ],
  "not_captured": [],
