@@ -3,7 +3,7 @@
  "client": "Imua Onipaa",
  "captured": "2026-11-26 to 2026-11-27",
  "image_size": "1568 wide (1568x755 for Nov 26 captures; 1568x711 for most Nov 27 captures)",
- "count": 41,
+ "count": 46,
  "images": [
   {
    "folder": "scenarios",
@@ -466,6 +466,66 @@
    "source_url": "https://us2.make.com/3530506/scenarios/7210248/logs",
    "captured": "2026-11-27",
    "image_size": "1568x711"
+  },
+  {
+   "folder": "scenario-builder",
+   "filename": "make_scenario-builder_http-url-settings.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/scenario-builder/make_scenario-builder_http-url-settings.png",
+   "description": "HTTP Make a request settings filled in: Authentication type API key, Connection Airtable — M12 Lab — read only (locked), URL https://api.airtable.com/v0/<base ID>/Staff, Method GET, Headers and Query parameters empty, Cancel and Save.",
+   "alt": "Make HTTP module settings with an Airtable URL and an API key connection",
+   "module": "Scenario Builder",
+   "screen": "Http url settings",
+   "source_url": "https://us2.make.com/3530506/scenarios/7214699/edit",
+   "captured": "2026-11-27",
+   "image_size": "360x738"
+  },
+  {
+   "folder": "scenario-builder",
+   "filename": "make_scenario-builder_http-module-right-click-menu.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/scenario-builder/make_scenario-builder_http-module-right-click-menu.png",
+   "description": "Right-click menu on an HTTP module at the end of a four-module scenario: Running options (Run this module only) and Additional actions (Add error handler, Add note, Rename, Duplicate, Copy to clipboard, Delete).",
+   "alt": "Make module right-click menu with Run this module only",
+   "module": "Scenario Builder",
+   "screen": "Http module right click menu",
+   "source_url": "https://us2.make.com/3530506/scenarios/7214699/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "scenario-builder",
+   "filename": "make_scenario-builder_http-output-airtable-rows.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/scenario-builder/make_scenario-builder_http-output-airtable-rows.png",
+   "description": "HTTP step output after Run this module only, Output column expanded: Data, records, two records each with id, createdTime and fields (Role, Shift, Name), Headers collapsed, Status Code 200.",
+   "alt": "Make HTTP step output showing two Airtable records and Status Code 200",
+   "module": "Scenario Builder",
+   "screen": "Http output airtable rows",
+   "source_url": "https://us2.make.com/3530506/scenarios/7214699/edit",
+   "captured": "2026-11-27",
+   "image_size": "726x537"
+  },
+  {
+   "folder": "scenario-builder",
+   "filename": "make_scenario-builder_http-error-invalid-https-url.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/scenario-builder/make_scenario-builder_http-error-invalid-https-url.png",
+   "description": "HTTP step run with an http:// URL: \"Settings couldn't be applied. Enter a valid HTTPS URL. Code: InvalidConfigurationError\", 1 operation, 0 credits, with the Automatic error handler box and No bundles in Output.",
+   "alt": "Make error when an HTTP step URL starts with http://",
+   "module": "Scenario Builder",
+   "screen": "Http error invalid https url",
+   "source_url": "https://us2.make.com/3530506/scenarios/7214699/edit",
+   "captured": "2026-11-27",
+   "image_size": "1568x756"
+  },
+  {
+   "folder": "credentials",
+   "filename": "make_credentials_connections-list-locked.png",
+   "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/credentials/make_credentials_connections-list-locked.png",
+   "description": "Credentials, Connections page: the Airtable — M12 Lab — read only connection row with its lock icon, connection ID and https://api.airtable.com (owner name covered).",
+   "alt": "Make Connections page row for a locked HTTP API key connection",
+   "module": "Credentials",
+   "screen": "Connections list locked",
+   "source_url": "https://us2.make.com/3530506/connections",
+   "captured": "2026-11-27",
+   "image_size": "1324x117"
   }
  ],
  "not_captured": [],
