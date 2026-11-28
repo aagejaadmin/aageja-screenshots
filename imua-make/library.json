@@ -555,7 +555,7 @@
    "folder": "audit-packet",
    "filename": "make_audit-packet_step2-header-token.png",
    "url": "https://raw.githubusercontent.com/aagejaadmin/aageja-screenshots/main/imua-make/audit-packet/make_audit-packet_step2-header-token.png",
-   "description": "Audit packet Step 2 (Housekeeping roster) settings: Authentication type No authentication; URL https://api.airtable.com/v0/appFAKE0000000000/Housekeeping; Method GET; Headers: Authorization = Bearer patFAKE.audit-example-only (planted problem: token typed into a header; fake value).",
+   "description": "Audit packet Step 2 (Housekeeping roster) settings: Authentication type No authentication; URL https://api.airtable.com/v0/appFAKE0000000000/Housekeeping; Method GET; Headers: Authorization = Bearer patFAKE.audit-example-only (fake value).",
    "alt": "Make HTTP step with a fake token typed into the Authorization header",
    "module": "Audit Packet",
    "screen": "Step2 header token",
